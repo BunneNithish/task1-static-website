@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Company — Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header id="site-header">
+    <h1 id="brand">tech.at.core [t]</h1>
+    <nav id="main-nav" aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html" id="link-home">Home</a></li>
+        <li><a href="about.html" id="link-about">About Us</a></li>
+        <li><a href="contact.html" id="link-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="contact-card">
+      <h2>Contact Us</h2>
+
+      <form id="contact-form" action="#" method="post" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required minlength="3" placeholder="Your full name" />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required placeholder="name@example.com" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required minlength="10" placeholder="How can we help?"></textarea>
+
+        <input id="submit" type="submit" value="Send Message" />
+      </form>
+    </section>
+  </main>
+
+  <footer id="site-footer">
+    <p>tech.at.core [t] — We reply within 24–48 hours.</p>
+  </footer>
+
+</body>
+</html>
