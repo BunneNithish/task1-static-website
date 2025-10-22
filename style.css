@@ -188,6 +188,8 @@ body {
   background: linear-gradient(90deg, #007bff, #00c0ff);
   color: #fff;
 }
+
+
 #contact-form input[type="submit"]:hover { transform: translateY(-2px); }
 #contact-form input[type="submit"]:active { transform: translateY(0); }
 #about-top p::first-letter { font-size: 2.1rem; font-weight: 700; color: #0b74a7; float: left; margin-right: 0.35rem; }

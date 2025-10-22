@@ -51,6 +51,14 @@ body {
   transition: transform 160ms ease, background-color 160ms ease;
   font-size: 1.05rem;
 }
+#thankyou:target {
+  display: block;
+  background: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
 #main-nav a:hover {
      background: rgba(255,255,255,0.12); transform: translateY(-2px); }
 #main-nav a:active { 
