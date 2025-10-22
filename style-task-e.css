@@ -142,15 +142,26 @@ body {
   border-bottom: 140px solid #34b77b;
   filter: drop-shadow(0 6px 10px rgba(0,0,0,0.12));
 }
-#shape-star::before {
-  content: "★";
-  font-size: 120px;
-  color: gold;
-  display: block;
-  text-align: center;
-  text-shadow: 3px 3px 8px rgba(0,0,0,0.35);
+#shape-star {
+  width: 150px;
+  height: 150px;
   margin: 1rem auto;
+  background: gold;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  filter: drop-shadow(3px 3px 8px rgba(0, 0, 0, 0.35));
 }
+
 #contact-card {
   max-width: 680px;
   margin: 0 auto;
